@@ -92,8 +92,8 @@ layers:
   - '6'
   - .
   - '~'
-  - <
-  - '>'
+  - LS(1)
+  - LS(2)
   - '*'
   - '&'
   - ;
@@ -142,28 +142,22 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [10, 11]
-  k: '['
-  l: [default]
-- p: [11, 12]
-  k: (
-  l: [default]
-- p: [12, 13]
   k: '{'
   l: [default]
-- p: [12, 17]
-  k: ''''
+- p: [11, 12]
+  k: '['
   l: [default]
-- p: [13, 16]
-  k: '"'
+- p: [12, 13]
+  k: (
   l: [default]
 - p: [16, 17]
-  k: '}'
-  l: [default]
-- p: [17, 18]
   k: )
   l: [default]
-- p: [18, 19]
+- p: [17, 18]
   k: ']'
+  l: [default]
+- p: [18, 19]
+  k: '}'
   l: [default]
 - p: [21, 22]
   k: '~'
